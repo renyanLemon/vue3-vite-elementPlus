@@ -141,7 +141,6 @@ export const asyncRoutes = [
         }
       }
     ],
-    
   },{
     component: Layout,
     children: [
@@ -151,6 +150,21 @@ export const asyncRoutes = [
         component: () => import('@/views/salary/index.vue'),
         meta: {
           title: global.t('menu.salary'),
+          icon: 'Discount',
+          affix: true,
+          noKeepAlive: true,
+        }
+      }
+    ],
+  },{
+    component: Layout,
+    children: [
+      {
+        path: '/approval',
+        name: 'Approval',
+        component: () => import('@/views/approval/approvalRecord.vue'),
+        meta: {
+          title: global.t('menu.approvalRecord'),
           icon: 'Discount',
           affix: true,
           noKeepAlive: true,

@@ -10,7 +10,8 @@ export default {
         job: 'Job management',
         member: 'Membership Management',
         room: 'Room Management',
-        salary: 'Salary Management'
+        salary: 'Salary Management',
+        approvalRecord: 'Approval Record'
     },
     languagePage: {
         descTitle: 'System language settings'

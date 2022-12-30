@@ -10,7 +10,8 @@ export default {
         job: '岗位管理',
         member: '会员管理',
         room: '房间管理',
-        salary: '薪资管理'
+        salary: '薪资管理',
+        approvalRecord: '审批记录'
     },
     languagePage: {
         descTitle: '系统语言设置'

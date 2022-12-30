@@ -9,6 +9,10 @@
   "dependencies": {
     "@icon-park/vue-next": "^1.4.2",
     "@intlify/vite-plugin-vue-i18n": "^6.0.3",
+    "@vue-flow/background": "^1.0.1",
+    "@vue-flow/controls": "^1.0.0",
+    "@vue-flow/core": "^1.9.4",
+    "@vue-flow/minimap": "^1.0.0",
     "element-plus": "^2.2.22",
     "js-cookie": "^3.0.1",
     "moment": "^2.29.4",
